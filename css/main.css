@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;
+}
+
+.grid-items {
+    width: 95%;
+    margin: auto;
+    column-count: 3;
+    column-gap: 40px
+}
+
+.grid-items img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.nosubmit {
+    border: none;
+    border-radius: 25px;
+    width: 800px;
+    margin-top: 10px;
+    padding: 20px 15px 20px 50px;
+    background: #eeeeee url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+form input::placeholder {
+    font-size: 17px;
+}
+
+nav {
+    height: 160px;
+    padding-top: 20px;
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    top: 0;
+    margin-top: -180;
+}
+
+nav .main-nav {
+    width: 93%;
+    margin: auto;
+}
+
+nav .nav-top {
+    display: flex;
+    height: 90px;
+    width: 100%;
+}
+
+nav .nav-top .img1 {
+    height: 65px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+nav .nav-top a {
+    margin-left: 35px;
+    margin-top: 25px;
+    color: #777778;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#unsplash {
+    margin-left: 35px;
+    margin-top: 25px;
+    background: linear-gradient(to right, #51e3ff, #cd9cff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+nav .nav-top p {
+    margin-left: 35px;
+    margin-top: 17px;
+    font-size: 30px;
+    color: #777778;
+}
+
+nav .nav-top button {
+    margin-left: 40px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #777778;
+    color: #777778;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+nav .nav-top .btn1 {
+    margin-top: 13px;
+}
+
+nav .nav-top .img2 {
+    margin-left: 50px;
+    height: 35px;
+    margin-top: 15px;
+}
+
+nav .nav-bottom {
+    display: flex;
+}
+
+nav .nav-bottom a {
+    text-decoration: none;
+    color: #777778;
+    margin-left: 27px;
+    font-size: 22px;
+}
+
+nav .nav-bottom p {
+    font-size: 22px;
+    margin-left: 23px;
+}
+
+nav .nav-bottom .line {
+    font-size: 22px;
+    margin-left: 25px;
+    color: #777778;
+}
+
+.banner1 {
+    background-image: url(https://images.unsplash.com/photo-1688383213635-9bc2fc25103d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1vZi10aGUtZGF5fHx8fGVufDB8fHx8fA%3D%3D&dpr=1&auto=format%2Ccompress&fit=crop&w=1599&h=594);
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 170px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner1 .top {
+    padding-top: 150px;
+    color: white;
+    margin-left: 400px;
+}
+
+.banner1 .top h3 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.banner1 .top h4 {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.nosubmit2 {
+    border: none;
+    border-radius: 10px;
+    width: 800px;
+    margin-top: 10px;
+    padding: 20px 15px 20px 50px;
+    background: #eeeeee url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.banner1 .top p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.banner1 .bottom {
+    padding-top: 220px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+.banner1 .bottom img {
+    height: 25px;
+}
+
+.banner1 .bottom .txt {
+    text-align: center;
+}
